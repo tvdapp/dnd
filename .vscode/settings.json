@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "dnd",
+            "group": "dnd",
+            "database": "${workspaceFolder:dnd}/test.db"
+        }
+    ]
+}
